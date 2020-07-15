@@ -281,9 +281,11 @@ if __name__ == '__main__':
             probPrefix = os.path.basename(stackProbPath)
             nucMaskChan = int(probPrefix.split('Probabilities_')[1].split('.')[0])-1
         else:
+            legacyMode = 0
             print('NO PROBABILITY MAP PROVIDED')
         
     else:
+        legacyMode = 0
         nucMaskChan = args.probMapChan
 
     if args.TissueMaskChan==-1:
