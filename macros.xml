@@ -2,12 +2,12 @@
 <macros>
     <xml name="requirements">
         <requirements>
-            <requirement type="package" version="3.6">python</requirement>
-            <requirement type="package">scikit-learn</requirement>
-            <requirement type="package">scikit-image</requirement>
-            <requirement type="package">matplotlib</requirement>
-            <requirement type="package">tifffile</requirement>
-            <requirement type="package">opencv</requirement>
+            <requirement type="package" version="3.7">python</requirement>
+            <requirement type="package" version="0.23.2">scikit-learn</requirement>
+            <requirement type="package" version="0.17.2">scikit-image</requirement>
+            <requirement type="package" version="3.3.1">matplotlib-base</requirement>
+            <requirement type="package" version="2020.9.3">tifffile</requirement>
+            <requirement type="package" version="4.4.0.42">opencv-python-headless</requirement>
         </requirements>
     </xml>
 
